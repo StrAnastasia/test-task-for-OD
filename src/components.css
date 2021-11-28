@@ -186,7 +186,8 @@ button, input {
     /* background-image: url('./images/Rectangle\ 289.png'); */
 
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
+
 }
 
 /* .grayhomepagebigdiv {
@@ -446,6 +447,12 @@ button, input {
 
 
 @media (max-width: 768px) {
+    
+    .nalogbutton {
+        margin: calc(50% - 28px) calc(50% - 99px);
+
+    }
+
     .modalWindow {
         width: 389px;
         left: calc(45vw - 209.5px);
@@ -455,7 +462,7 @@ button, input {
         margin-left: 379px;
     }
 
-    .modalWindow input,.modalWindow .bigButton {
+    .modalWindow input, .modalWindow .bigButton {
         width: 100%;
     }
 
@@ -480,7 +487,7 @@ button, input {
         position: absolute;
         top: 0;
         transform: translateY(0%);
-    
+
     }
 
     .modalWindow svg {
@@ -520,7 +527,8 @@ button, input {
         margin-top: 24px;
         margin-bottom: 24px;
         width: 100%;
-        }
+    }
+
     .modalWindow .bigButton {
         margin-top: 146px;
         width: 100%;

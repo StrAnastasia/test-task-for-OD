@@ -1,11 +1,30 @@
 import { useEffect, useState } from 'react';
 import '../components.css';
 import redBackImage from '../images/Rectangle289.png'
-import smallRedBack from '../images/Rectangle 289(1).png'
 
 import Element from './Element';
 
 function Homepage() {
+
+
+    let redBack = { backgroundImage: `url(${redBackImage}` }
+    let grayBack = { background: 'rgba(0, 0, 0, 0.3)' }
+    let [backStyle, setBackStyle] = useState(redBack)
+
+    let [modalDisplay, setModalDisplay] = useState('none');
+
+
+    function firstClick() {
+        setModalDisplay('block')
+        setBackStyle(grayBack)
+    }
+
+    function secondClick() {
+        setModalDisplay('none')
+        setBackStyle(redBack)
+    }
+
+
 
     let [trueOrFalse, setTrueOrFalse] = useState(true)
     let [error, setError] = useState('none')
@@ -39,11 +58,6 @@ function Homepage() {
             // sumArray.push(max-(annualSum*withoutDrop))
         }
     }
-    
-    let redBack = { backgroundImage: `url(${redBackImage}` }
-    let smallRed = { backgroundImage: `url(${smallRedBack}` }
-    let grayBack = { background: 'rgba(0, 0, 0, 0.3)' }
-    let [backStyle, setBackStyle] = useState(redBack)
 
     useEffect(() => {
         if (input === '') {
@@ -51,33 +65,7 @@ function Homepage() {
         } else {
             setError('none')
         }
-        console.log(window.innerWidth < 769);
-        if (window.innerWidth < 769) {
-            setBackStyle(smallRed)
-        } else {
-            setBackStyle(redBack)
-        }
-    }, [input, window.innerWidth])
-
-    let [modalDisplay, setModalDisplay] = useState('none');
-
-
-    function firstClick() {
-        setModalDisplay('block')
-        setBackStyle(grayBack)
-    }
-
-    function secondClick() {
-        setModalDisplay('none')
-        if (window.innerWidth < 769) {
-            setBackStyle(smallRed)
-        } else {
-            setBackStyle(redBack)
-        }
-    }
-
-
-
+    }, [input])
 
 
     return (
