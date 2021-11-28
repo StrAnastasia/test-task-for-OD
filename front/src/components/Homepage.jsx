@@ -40,6 +40,7 @@ function Homepage() {
         }
     }
 
+    
     let redBack = { backgroundImage: `url(${redBackImage}` }
     let smallRed = { backgroundImage: `url(${smallRedBack}` }
     let grayBack = { background: 'rgba(0, 0, 0, 0.3)' }
