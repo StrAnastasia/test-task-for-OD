@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/:https://stranastasia.github.io/test-task-for-OD/static/css/main.d60ca87a.chunk.css",
+    "main.js": "/:https://stranastasia.github.io/test-task-for-OD/static/js/main.33f3c423.chunk.js",
+    "main.js.map": "/:https://stranastasia.github.io/test-task-for-OD/static/js/main.33f3c423.chunk.js.map",
+    "runtime-main.js": "/:https://stranastasia.github.io/test-task-for-OD/static/js/runtime-main.ad1276a3.js",
+    "runtime-main.js.map": "/:https://stranastasia.github.io/test-task-for-OD/static/js/runtime-main.ad1276a3.js.map",
+    "static/js/2.c3fd4382.chunk.js": "/:https://stranastasia.github.io/test-task-for-OD/static/js/2.c3fd4382.chunk.js",
+    "static/js/2.c3fd4382.chunk.js.map": "/:https://stranastasia.github.io/test-task-for-OD/static/js/2.c3fd4382.chunk.js.map",
+    "index.html": "/:https://stranastasia.github.io/test-task-for-OD/index.html",
+    "static/css/main.d60ca87a.chunk.css.map": "/:https://stranastasia.github.io/test-task-for-OD/static/css/main.d60ca87a.chunk.css.map",
+    "static/js/2.c3fd4382.chunk.js.LICENSE.txt": "/:https://stranastasia.github.io/test-task-for-OD/static/js/2.c3fd4382.chunk.js.LICENSE.txt",
+    "static/media/components.css": "/:https://stranastasia.github.io/test-task-for-OD/static/media/LabGrotesqueMono.e3564b10.eot",
+    "static/media/Rectangle 289(1).0fe9def7.png": "/:https://stranastasia.github.io/test-task-for-OD/static/media/Rectangle 289(1).0fe9def7.png",
+    "static/media/Rectangle289.7e6df6b6.png": "/:https://stranastasia.github.io/test-task-for-OD/static/media/Rectangle289.7e6df6b6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad1276a3.js",
+    "static/js/2.c3fd4382.chunk.js",
+    "static/css/main.d60ca87a.chunk.css",
+    "static/js/main.33f3c423.chunk.js"
+  ]
+}
