@@ -1,0 +1,533 @@
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-ThinItalic.eot');
+    src: local('Lab Grotesque Thin Italic'), local('LabGrotesque-ThinItalic'),
+        url('./fonts/LabGrotesque-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-ThinItalic.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-ThinItalic.woff') format('woff'),
+        url('./fonts/LabGrotesque-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-MediumItalic.eot');
+    src: local('Lab Grotesque Medium Italic'), local('LabGrotesque-MediumItalic'),
+        url('./fonts/LabGrotesque-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-MediumItalic.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-MediumItalic.woff') format('woff'),
+        url('./fonts/LabGrotesque-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-Regular.eot');
+    src: local('Lab Grotesque Regular'), local('LabGrotesque-Regular'),
+        url('./fonts/LabGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-Regular.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-Regular.woff') format('woff'),
+        url('./fonts/LabGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-LightItalic.eot');
+    src: local('Lab Grotesque Light Italic'), local('LabGrotesque-LightItalic'),
+        url('./fonts/LabGrotesque-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-LightItalic.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-LightItalic.woff') format('woff'),
+        url('./fonts/LabGrotesque-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-Medium.eot');
+    src: local('Lab Grotesque Medium'), local('LabGrotesque-Medium'),
+        url('./fonts/LabGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-Medium.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-Medium.woff') format('woff'),
+        url('./fonts/LabGrotesque-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-Bold.eot');
+    src: local('Lab Grotesque Bold'), local('LabGrotesque-Bold'),
+        url('./fonts/LabGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-Bold.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-Bold.woff') format('woff'),
+        url('./fonts/LabGrotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-Thin.eot');
+    src: local('Lab Grotesque Thin'), local('LabGrotesque-Thin'),
+        url('./fonts/LabGrotesque-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-Thin.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-Thin.woff') format('woff'),
+        url('./fonts/LabGrotesque-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-Italic.eot');
+    src: local('Lab Grotesque Italic'), local('LabGrotesque-Italic'),
+        url('./fonts/LabGrotesque-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-Italic.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-Italic.woff') format('woff'),
+        url('./fonts/LabGrotesque-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-BlackItalic.eot');
+    src: local('Lab Grotesque Black Italic'), local('LabGrotesque-BlackItalic'),
+        url('./fonts/LabGrotesque-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-BlackItalic.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-BlackItalic.woff') format('woff'),
+        url('./fonts/LabGrotesque-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque Mono';
+    src: url('./fonts/LabGrotesqueMono.eot');
+    src: local('Lab Grotesque Mono'), local('LabGrotesqueMono'),
+        url('./fonts/LabGrotesqueMono.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesqueMono.woff2') format('woff2'),
+        url('./fonts/LabGrotesqueMono.woff') format('woff'),
+        url('./fonts/LabGrotesqueMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-BoldItalic.eot');
+    src: local('Lab Grotesque Bold Italic'), local('LabGrotesque-BoldItalic'),
+        url('./fonts/LabGrotesque-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-BoldItalic.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-BoldItalic.woff') format('woff'),
+        url('./fonts/LabGrotesque-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-Light.eot');
+    src: local('Lab Grotesque Light'), local('LabGrotesque-Light'),
+        url('./fonts/LabGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-Light.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-Light.woff') format('woff'),
+        url('./fonts/LabGrotesque-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque Mono';
+    src: url('./fonts/LabGrotesqueMono-Bold.eot');
+    src: local('Lab Grotesque Mono Bold'), local('LabGrotesqueMono-Bold'),
+        url('./fonts/LabGrotesqueMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesqueMono-Bold.woff2') format('woff2'),
+        url('./fonts/LabGrotesqueMono-Bold.woff') format('woff'),
+        url('./fonts/LabGrotesqueMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./fonts/LabGrotesque-Black.eot');
+    src: local('Lab Grotesque Black'), local('LabGrotesque-Black'),
+        url('./fonts/LabGrotesque-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LabGrotesque-Black.woff2') format('woff2'),
+        url('./fonts/LabGrotesque-Black.woff') format('woff'),
+        url('./fonts/LabGrotesque-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    font-family: Lab Grotesque;
+}
+
+button, input {
+    outline: none;
+}
+
+.allmightydiv {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.homepagebigdiv {
+    width: 100%;
+    height: 100%;
+    /* background-image: url('./images/Rectangle\ 289.png'); */
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* .grayhomepagebigdiv {
+    width: 100%;
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.3);
+}*/
+
+.nalogbutton {
+    width: 198px;
+    height: 56px;
+    margin: calc(25% - 28px) calc(50% - 99px);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 44px #CFDAE7);
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+}
+
+.nalogbutton:hover {
+    background: #FFFFFF;
+    filter: none;
+    color: black;
+}
+
+.nalogbutton:disabled {
+    background: #BEC5CC;
+    color: white;
+}
+
+.modalWindow {
+    width: 490px;
+    padding: 32px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(50vw - 276px);
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.modalWindow svg {
+    margin-left: 480px;
+}
+
+.modalWindow h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: -13.5px;
+}
+
+.modalWindow h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 171%;
+    color: #808080;
+    margin-top: 16px;
+    margin: 0px auto;
+}
+
+.modalWindow h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    margin-top: 24px;
+}
+
+.modalWindow input {
+    width: 488px;
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #DFE3E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.modalWindow input:hover {
+    border: 1px solid #000000;
+}
+
+.modalWindow input:focus {
+    border: 1px solid #DFE3E6;
+}
+
+.modalWindow .errorinput {
+    border: 1px solid #EA0029;
+}
+
+.modalWindow .errortext {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 120%;
+    color: #EA0029;
+}
+
+.modalWindow button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    color: #EA0029;
+    padding: 0%;
+    border: none;
+    background-color: transparent;
+    margin-top: 8px;
+}
+
+.modalWindow .button:hover {
+    color: #F53A31;
+}
+
+.modalWindow .button:click {
+    color: #EA0029;
+}
+
+.modalWindow div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modalWindow h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    margin-right: 44px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.modalWindow div .red {
+    padding: 6px 12px;
+    height: 36px;
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    border-radius: 50px;
+    border: none;
+    margin-right: 15px;
+
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.modalWindow div .gray {
+    padding: 6px 12px;
+    height: 36px;
+    background: #EEF0F2;
+    border-radius: 50px;
+    border: none;
+    margin-right: 15px;
+
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: black;
+}
+
+.modalWindow .gray:hover {
+    background: #DFE3E6;
+    border-radius: 50px;
+
+}
+
+.modalWindow .bigButton {
+    margin-top: 40px;
+    width: 488px;
+    height: 56px;
+    padding: 16px 0px;
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+    border-radius: 6px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.modalWindow .bigButton:hover {
+    background: #EA0029;
+    box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+}
+
+.modalWindow label {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.modalWindow .checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 11px;
+    background: #FFFFFF;
+    border: 1px solid #DFE3E6;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.modalWindow .checkbox:hover {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin-right: 11px;
+}
+
+.modalWindow .checkbox:checked {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: none;
+    width: 22px;
+    height: 20px;
+}
+
+
+.modalWindow div h4 {
+    font-weight: 400;
+    margin: 0%;
+}
+
+.modalWindow .h4 {
+    opacity: 0.5;
+}
+
+.modalWindow hr {
+    background: #DFE3E6;
+    border: 1px solid #DFE3E6;
+    margin: 16px 0px;
+}
+
+.space {
+    visibility: hidden;
+    margin: 0%;
+}
+
+
+@media (max-width: 768px) {
+    .modalWindow {
+        width: 389px;
+        left: calc(45vw - 209.5px);
+    }
+
+    .modalWindow svg {
+        margin-left: 379px;
+    }
+
+    .modalWindow input,.modalWindow .bigButton {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .nalogbutton {
+        width: 149px;
+        height: 40px;
+        margin: calc(25% - 20px) calc(50% - 74.5px);
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .modalWindow {
+        width: calc(100% - 40px);
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        padding: 16px;
+        position: absolute;
+        top: 0;
+        transform: translateY(0%);
+    
+    }
+
+    .modalWindow svg {
+        margin-left: calc(100% - 16px);
+        width: 12px;
+        height: 12px;
+    }
+
+    .modalWindow h1 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: -6px;
+    }
+
+    .modalWindow h2 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .modalWindow h3 {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .modalWindow input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .modalWindow div {
+        flex-wrap: wrap;
+    }
+
+    .modalWindow h5 {
+        margin-right: 0%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 100%;
+        }
+    .modalWindow .bigButton {
+        margin-top: 146px;
+        width: 100%;
+        height: 40px;
+        padding: 12px 0px;
+        font-size: 12px;
+        line-height: 133%;
+    }
+
+}
