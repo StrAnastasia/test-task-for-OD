@@ -39,7 +39,6 @@ function Homepage() {
             // sumArray.push(max-(annualSum*withoutDrop))
         }
     }
-
     
     let redBack = { backgroundImage: `url(${redBackImage}` }
     let smallRed = { backgroundImage: `url(${smallRedBack}` }
