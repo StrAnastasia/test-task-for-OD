@@ -182,24 +182,21 @@ button, input {
 
 .homepagebigdiv {
     width: 100%;
-    height: 100%;
-    /* background-image: url('./images/Rectangle\ 289.png'); */
-
+    height: 98%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
 }
 
-/* .grayhomepagebigdiv {
-    width: 100%;
-    height: 100%; 
-    background: rgba(0, 0, 0, 0.3);
-}*/
-
 .nalogbutton {
     width: 198px;
     height: 56px;
-    margin: calc(25% - 28px) calc(50% - 99px);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translatex(-50%);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -225,11 +222,14 @@ button, input {
 
 .modalWindow {
     width: 490px;
+    max-height: 80vh;
+    overflow-y: scroll;
+
     padding: 32px;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
-    left: calc(50vw - 276px);
+    left: 50%;
+    transform: translateY(-50%) translatex(-50%);
     background: #FFFFFF;
     border-radius: 30px;
 }
@@ -446,16 +446,37 @@ button, input {
 }
 
 
-@media (max-width: 768px) {
-    
-    .nalogbutton {
-        margin: calc(50% - 28px) calc(50% - 99px);
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
 
-    }
+
+
+
+
+
+
+@media (max-width: 768px) {
 
     .modalWindow {
         width: 389px;
-        left: calc(45vw - 209.5px);
     }
 
     .modalWindow svg {
@@ -473,13 +494,13 @@ button, input {
     .nalogbutton {
         width: 149px;
         height: 40px;
-        margin: calc(25% - 20px) calc(50% - 74.5px);
         font-size: 12px;
         line-height: 16px;
     }
 
     .modalWindow {
         width: calc(100% - 40px);
+        max-height: 100%;
         left: 0px;
         top: 0px;
         border-radius: 0px;
@@ -530,7 +551,7 @@ button, input {
     }
 
     .modalWindow .bigButton {
-        margin-top: 146px;
+        margin-top: 70px;
         width: 100%;
         height: 40px;
         padding: 12px 0px;

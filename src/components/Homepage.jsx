@@ -80,7 +80,7 @@ function Homepage() {
                 <h2>Используйте налоговый вычет чтобы погасить ипотеку досрочно.</h2>
                 <h2>Размер налогового вычета составляет не более 13% от своего официального годового дохода.</h2>
                 <h3>Ваша зарплата в месяц</h3>
-                <input className={error === 'none' ? '' : 'errorinput'} type="text" placeholder='Введите данные' onChange={changeInput} />
+                <input className={error === 'none' ? '' : 'errorinput'} type="number" placeholder='Введите данные' onChange={changeInput} />
                 <p className='errortext' style={{ display: error }}>Поле обязательно для заполнения</p>
                 <button onClick={count} className='button'>Рассчитать</button>
                 {sumArray.length ?
